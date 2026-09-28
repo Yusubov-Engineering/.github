@@ -1,4 +1,7 @@
-<img src="banner.png" alt="Yusubov Engineering — modular apps, one contract at a time" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
+  <img src="banner-light.png" alt="Yusubov Engineering — modular apps, one contract at a time" width="100%">
+</picture>
 
 Templates for apps that stay easy to change as they grow. Every capability is
 split into an `_api` module (what it can do) and an `_impl` module (how it does
